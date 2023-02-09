@@ -17,7 +17,7 @@ function App() {
   const [itemOffset, setItemOffset] = useState(0);
   const [selectedData, setSelectedData] = useState(data);
   const [rows, setRows] = useState([]);
-  const [search, setSearch] = useState('IKEA');
+  const [search, setSearch] = useState('');
   const itemsPerPage = 4;
 
   useEffect(() => {
